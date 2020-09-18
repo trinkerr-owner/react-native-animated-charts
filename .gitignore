@@ -53,3 +53,9 @@ jsconfig.json
 .project
 .settings/
 .vscode
+
+# Environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+!.env.sample
